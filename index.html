@@ -1,0 +1,54 @@
+<html>
+<head>
+<script src="https://cdn.auth0.com/js/auth0/9.2.2/auth0.min.js"></script>
+<script src="app.js"></script>
+</head>
+<body>
+<div class="content">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Auth0 - JavaScript</a>
+
+        <button id="btn-home-view" class="btn btn-primary btn-margin">
+            Home
+        </button>
+
+        <button id="btn-login" class="btn btn-primary btn-margin">
+            Log In
+        </button>
+
+        <button id="btn-logout" class="btn btn-primary btn-margin">
+            Log Out
+        </button>
+
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- home view -->
+    <div id="home-view">
+	  <h4></h4>
+      <h3>Hosting a site on GitHub<h3>
+      <p>See <a href="https://gist.github.com/TylerFisher/6127328">https://gist.github.com/TylerFisher/6127328</a></p>
+    </div>
+    
+  </main>
+
+  <!-- profile view -->
+  <div id="profile-view" class="panel panel-default profile-area">
+    <div class="panel-heading"><h3>Profile</h3></div>
+      <div class="panel-body">
+        <img class="avatar" alt="avatar">
+        <div>
+          <label><i class="glyphicon glyphicon-user"></i> Nickname</label>
+          <h3 class="nickname"></h3>
+        </div>
+        <pre class="full-profile"></pre>
+      </div>
+  </div>
+  
+</div>
+</body>
+</html>
